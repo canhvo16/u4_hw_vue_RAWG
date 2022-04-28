@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/games">Games</router-link>
     <router-link to="/about">About</router-link>
+    <router-link to="/platforms">Platforms</router-link>
   </nav>
 </template>
 

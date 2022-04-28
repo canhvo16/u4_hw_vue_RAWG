@@ -1,17 +1,20 @@
 <template>
+<a :href="url">
   <div class="card">
     <div class="image-wrapper">
-      <img :src="image" :alt="name">
-    </div>
-    <div class="info-wrapper flex-col">
       {{ name }}
     </div>
+    <hr/>
+    <div class="info-wrapper flex-col">
+      {{ text }}
+    </div>
   </div>
+</a>
 </template>
 
 <script>
   export default {
-    name: 'GenreCard',
-    props: ['name', 'image']
+    name: 'RedditCard',
+    props: ['name', 'text', 'url']
   }
 </script>
